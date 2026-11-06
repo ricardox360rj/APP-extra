@@ -25,7 +25,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extrair projeto
-        run: unzip -q HorasExtras.zip
+        run: unzip -q appHorasExtras[1].zip
 
       - name: Compilar APK
         working-directory: HorasExtras
